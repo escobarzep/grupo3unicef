@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;400;700;900&display=swap');
+
+:root{
+   /* --color1: #F0D237;*/
+    /*--color2: #F78B6D;*/
+   /* --color3: #FA6672;*/
+   /* --color4: #32DBA2;*/
+   /* --color5: #B096E0;*/
+   --color1: #00747C;
+   --color2: #77b4fa;
+   --color3: #CACACA;
+   --color4: #878787;
+   --color5: #202022;
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+    --color-gris-claro: #CCCCCC;
+    --color-gris-oscuro: #333333;
+}
+
+
+body{ /* Así se crea una regla de estilo para el objeto body */
+    background-color: var(--color-blanco); /* Color de fondo */
+    color: var(--color-gris-oscuro); /* Color de texto */
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    margin: 0; /* elimina el margen por defecto de body */
+}
+img{
+    display: block;
+}
+
+p{
+    margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+h1{
+    font-size: 48px; /* Tamaño de la letra en pixeles */
+    font-weight: 900; /* Estilo o grosor de la letra */
+}
+h2{
+    font-weight: 200; 
+    font-size: 40px;
+    text-transform: lowercase; /* Mostrar los textos en minúscula */
+    letter-spacing: -2px;
+    margin-bottom: 12px;
+}
+h3{
+    font-size: 18px;
+    text-transform: uppercase; /* Mostrar los textos en mayúcula */
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+#main-header{
+    background-color: var(--color1);
+    color: var(--color-negro);
+}
+#main-header p{
+    margin-bottom: 0;
+}
+
+#nosotros{ /* Así se aplica formato a un objeto por su id */
+    background-color: var(--color2);
+}
+
+#noticias{
+    background-color: var(--color4);
+    color: var(--color-negro);
+}
+
+#historia{
+    background-color: var(--color2);
+}
+
+#eventos{
+    background-color: var(--color3);
+    color: var(--color-negro);
+}
+
+#main-footer{
+    background-color: var(--color-gris-oscuro);
+    color: var(--color-gris-claro);
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.padded{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row{
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col{
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-basis: 0;
+    flex-grow: 1;
+    box-sizing: border-box; /* Para que el padding no incremente el ancho */
+}
+.col-50{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.centrar-vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
