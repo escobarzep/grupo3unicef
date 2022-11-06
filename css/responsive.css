@@ -1,0 +1,61 @@
+@media(max-width:1000px){
+    #main-header p{
+        display: none;
+    }
+    .menu-main li a {
+        padding: 15px 5px;
+        font-size: 0.6em;
+    }
+    h1{
+        font-size: 28px;
+    }
+    #valores .col{
+        flex-basis: 33.33%;
+        max-width: 33.33%;
+    }
+    #eventos .row{
+        flex-direction: column;
+    }
+    #eventos .col-50{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+@media(max-width:700px){
+    #main-header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-main li a {
+        padding-top: 5px;
+    }
+    #noticias .row{
+        flex-direction: column;
+    }
+    #paisajes .row{
+        flex-direction: column;
+    }
+    #empresa .row{
+        flex-direction: column;
+    }
+    #empresa{
+        padding-top: 90px;
+    }
+    #valores .col{
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    #frases .row{
+        flex-direction: column;
+    }
+    #colaboradores .row{
+        flex-direction: column;
+    }
+}
+@media(max-width:500px){
+    #valores .col{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
