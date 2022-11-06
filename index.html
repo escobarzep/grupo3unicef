@@ -1,115 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ideas Digitales</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <!-- Así se vincula a la página web la hoja de estilos  -->
 </head>
+
 <body>
-    <div id="main-header">
+    <nav id="top-nav">
         <div class="container">
-            <h1>Educa CETPRO</h1>
-            <p>Diversidad, Inclusión, Innovacion </p>
+            <ul class="menu menu-top">
+                <li><a href="#">Principal</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Oficinas</a></li>
+                <li><a href="https://forms.gle/ChKgCh9z7k13yq777">Contáctenos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="main-header">
+        <div class="container" id="main-header-content">
+            <div>
+                <h1><a href="#">Educa CETPRO</a></h1>
+                <p>Diversidad, Inclusión, Innovacion</p>
+            </div>
+            <nav>
+                <ul class="menu menu-main">
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#noticias">Noticias</a></li>
+                    <li><a href="#historia">Historia</a></li>
+                    <li><a href="#empresa">Nuestra empresa</a></li>
+                    <li><a href="#valores">Valores</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                </ul>
+            </nav>
         </div><!-- container -->
-    </div><!-- main-header -->
+    </header><!-- main-header -->
 
-    <div id="main-banner">
-        <img src="images/banner.jpg" alt="" class="img-fluid">
-    </div><!-- main-banner -->
+    <main>
 
-    <div id="nosotros" class="padded">
-        <div class="container">
-            <h2>Bienvenidos</h2>
-            <p>Quiero darte la bienvenida al CETPRO de igualdad. Un espacio de formación en igualdad de oportunidades entre mujeres y varones. En este sentido, me gustaría destacar que, se han ido ampliando especialidades, tanto en el nivel básico, como en el avanzado, dando respuesta a la demanda de temáticas formativas más amplias. Sirva como referencia las incorporaciones de cursos en las últimas ediciones como, desarrollo web, tecnologías de información y comunicación, Diseño gráfico. Por otro lado, el número de personas participantes, mujeres y hombres, interesadas por saber más acerca de qué es y qué significa la igualdad ha ido incrementándose. Estamos, por tanto, en un momento y en un contexto idóneos para poner en valor y fomentar la formación en igualdad, el CETPRO como lugar de reflexión y de crecimiento personal, yendo más allá de los módulos formativos. Un CETPRO que da a la apertura a todas las personas, donde las especialidades que se imparten tienen que ver tanto con nuestra construcción individual, como con la construcción y el funcionamiento de una sociedad igualitaria para mujeres y hombres, y cuyos contenidos dan pautas para analizar la realidad con otra mirada y con la capacidad crítica que da el conocimiento.</p>
-        </div><!-- container -->
-    </div><!-- nosotros -->
+        <figure id="main-banner">
+            <img src="images/banner.jpg" alt="" class="img-fluid">
+            <figcaption>Nuestro equipo de trabajo</figcaption>
+        </figure><!-- main-banner -->
 
-    <div id="noticias" class="padded">
-        <div class="container">
-            <h2>Noticias</h2>
-            <div class="row">
-                <div class="col">
-                    <img src="images/imagen1.jpg" alt="Mujer joven leyendo libro" class="img-fluid">
-                    <h3>Igualda de Oportunidades</h3>
-                    <p>Lograr la igualdad entre los géneros y empoderar a todas las mujeres y las niñas La igualdad de género no solo es un derecho humano fundamental, sino que es uno de los fundamentos esenciales para construir un mundo pacífico, próspero y sostenible. Se han conseguido algunos avances durante las últimas décadas: más niñas están escolarizadas, y se obliga a menos niñas al matrimonio precoz; hay más mujeres con cargos en parlamentos y en posiciones de liderazgo, y las leyes se están reformando para fomentar la igualdad de género.</p>
+        <section id="personajedia" class="padded">
+            <div class="container">
+                <h2>Hacia la reducción de la brecha</h2>
+                <p class="mega-texto" id="nombre-personaje">Hacia la reducción de la brecha</p>
+            </div><!-- container -->
+        </section><!-- personajedia -->
+
+        <section id="nosotros" class="padded">
+            <div class="container">
+                <div class="botonera">
+                    <div class="circulo" id="boton-claro"></div>
+                    <div class="circulo" id="boton-oscuro"></div>
                 </div>
-                <div class="col">
-                    <img src="images/imagen2.png" alt="" class="img-fluid">
-                    <h3>PERCEPCIONES DE LAS MUJERES EN EL CAMPO LABORAL</h3>
-                    <p>No son solo los números bajos de las mujeres en el campo tecnológico los que tienen problemas. ¿Otro problema? Cómo son percibidas. Por ejemplo, simplemente con conocer el género del programador afecta considerablemente la percepción de la calidad de su trabajo y su éxito. Ese prejuicio se impregna mucho. En un estudio de usuarios de GitHub, el código escrito por mujeres era aceptado 78.6% del tiempo — 4% más que el código escrito por hombres. Esta tendencia, no obstante, solo funcionó cuando el género del programador era guardado en secreto. Entonces las mujeres eran mejores codificadoras cuando no se revelaba su género. Y eso es solo el principio. Mientras todos están sujetos a fallar y cometer errores en el lugar de trabajo, cuando las mujeres en posiciones de alto rango fallan en el ojo público, es percibido como una falla mayor — visto como una razón por la que mujeres no deberían liderar — con escrutinio y críticas más intensas en los medios.</p>
-                </div>
-                <div class="col">
-                    <img src="images/imagen3.jpg" alt="" class="img-fluid">
-                    <h3>MUJERES EN TECNOLOGIA</h3>
-                    <p>Las mujeres son una parte en constante crecimiento dentro del panorama de las tecnologías, pero la inequidad en la paga y las oportunidades persiste.
+                <header>
+                    <h2>Nosotros</h2>
+                </header>
+                <p> Quiero darte la bienvenida al CETPRO de igualdad. <a href="https://portaldeeducacion.pe/cetpro/index.html" target="_blank"> portaldeeducacion.pe/cetpro</a>  
+                    Un espacio de formación en igualdad de oportunidades entre mujeres y varones. En este sentido, me gustaría destacar 
+                    que, se han ido ampliando especialidades, tanto en el nivel básico, como en el avanzado, dando respuesta a la demanda 
+                    de temáticas formativas más amplias. Sirva como referencia las incorporaciones de cursos en las últimas ediciones como,
+                    desarrollo web, tecnologías de información y comunicación, Diseño gráfico. Por otro lado, el número de personas 
+                    participantes, mujeres y hombres, interesadas por saber más acerca de qué es y qué significa la igualdad ha ido 
+                    incrementándose. Estamos, por tanto, en un momento y en un contexto idóneos para poner en valor y fomentar la formación
+                    en igualdad, el CETPRO como lugar de reflexión y de crecimiento personal, yendo más allá de los módulos formativos. 
+                    Un CETPRO que da a la apertura a todas las personas, donde las especialidades que se imparten tienen que ver tanto con
+                    nuestra construcción individual, como con la construcción y el funcionamiento de una sociedad igualitaria para mujeres 
+                    y hombres, y cuyos contenidos dan pautas para analizar la realidad con otra mirada y con la capacidad crítica que da el 
+                    conocimiento.!</p>
+            </div><!-- container -->
+        </section><!-- nosotros -->
+
+        <section id="noticias" class="padded">
+            <div class="container">
+                <header>
+                    <h2>Noticias</h2>
+                </header>
+                <div class="row">
+                    <article class="col">
+                        <figure>
+                            <img src="images/imagen1.jpg" alt="Mujer joven leyendo libro" class="img-fluid">
+                        </figure>
+                        <h3>MUJERES EN TECNOLOGIA</h3>
+                        <p>Las mujeres son una parte en constante crecimiento <a href="https://care.org.pe/mujeres-emprendedoras-la-fuerza-clave-para-la-reactivacion-economica-del-peru/" target="_blank">MUJERES EMPRENDEDORAS: LA FUERZA CLAVE PARA LA REACTIVACIÓN ECONÓMICA DEL PERÚ</a> dolor
+                        dentro del panorama de las tecnologías, pero la inequidad en la paga y las oportunidades persiste.
                         Hay muchos problemas sistémicos que necesitan ser atendidos para que las mujeres puedan conseguir mayor equidad dentro del mundo de la informática, incluyendo las brechas en los grados de las carreras STEM (ciencias, tecnología, ingeniería y matemáticas por sus siglas en inglés), inequidad en salarios y asuntos derivados de la cultura en los lugares de trabajo.
                         Además de brindar las últimas estadísticas y tendencias clave, este artículo detalla algunas de las historias de desafío y éxito de mujeres en el mercado de la tecnología – incluyendo varias CEOs de alto perfil, empresarias y desarrolladoras.
-                        He aquí una breve lista de algunos de los conflictos más prominentes que enfrentan las mujeres dentro del ramo de la tecnología:
-                        </p>
-                </div>
-            </div>
-        </div><!-- container -->
-    </div><!-- noticias -->
+                        He aquí una breve lista de algunos de los conflictos más prominentes que enfrentan las mujeres dentro del ramo de la tecnología:</p>
+                    </article>
+                    <article class="col">
+                        <figure>
+                            <img src="images/imagen2.png" alt="" class="img-fluid">
+                        </figure>
+                        <h3>PERCEPCIONES DE LAS MUJERES EN EL CAMPO LABORAL</h3>
+                        <p>No son solo los números bajos de las mujeres en el campo tecnológico los que tienen problemas. ¿Otro problema? Cómo son percibidas. Por ejemplo, simplemente con conocer el género del programador afecta considerablemente la percepción de la calidad de su trabajo y su éxito. Ese prejuicio se impregna mucho. En un estudio de usuarios de GitHub, el código escrito por mujeres era aceptado 78.6% del tiempo — 4% más que el código escrito por hombres. Esta tendencia, no obstante, solo funcionó cuando el género del programador era guardado en secreto. Entonces las mujeres eran mejores codificadoras cuando no se revelaba su género. Y eso es solo el principio. Mientras todos están sujetos a fallar y cometer errores en el lugar de trabajo, cuando las mujeres en posiciones de alto rango fallan en el ojo público, es percibido como una falla mayor — visto como una razón por la que mujeres no deberían liderar — con escrutinio y críticas más intensas en los medios.</p>
+                    </article>
+                    <article class="col">
+                        <figure>
+                            <img src="images/imagen3.jpg" alt="" class="img-fluid">
+                        </figure>
+                        <h3>MUJERES EN TECNOLOGIA</h3>
+                        <p>Las mujeres son una parte en constante crecimiento dentro del panorama de las tecnologías, pero la inequidad en la paga y las oportunidades persiste.
+                            Hay muchos problemas sistémicos que necesitan ser atendidos para que las mujeres puedan conseguir mayor equidad dentro del mundo de la informática, incluyendo las brechas en los grados de las carreras STEM (ciencias, tecnología, ingeniería y matemáticas por sus siglas en inglés), inequidad en salarios y asuntos derivados de la cultura en los lugares de trabajo.
+                            Además de brindar las últimas estadísticas y tendencias clave, este artículo detalla algunas de las historias de desafío y éxito de mujeres en el mercado de la tecnología – incluyendo varias CEOs de alto perfil, empresarias y desarrolladoras.
+                            He aquí una breve lista de algunos de los conflictos más prominentes que enfrentan las mujeres dentro del ramo de la tecnología:</p>
+                    </article>
+                </div><!-- row -->
+            </div><!-- container -->
+        </section><!-- noticias -->
 
-    <div id="historia" class="padded">
-        <div class="container">
-            <h2>Participación de la mujer en la creación y dirección de tecnología</h2>
-            <p>Se estima que en promedio el 47% por la fuerza laboral son mujeres, con ligeras variaciones en diferentes industrias. Sin embargo en cuanto a creación y participación de las mujeres en el desarrollo de tecnología persiste una amplia brecha, teniendo por ejemplo de cada 5 estudiantes de tecnología y ciencias tan solo una es mujer. A la par, si analizamos la mayor parte de ponencias relacionadas a la tecnología cuentan con alto ausentismo de mujeres y prevalesencia de hombres en este tipo de programas.</p>
-            <p>Lo mismo ocurre con cargos de alto nivel relacionados a la tecnología ocupados por mujeres, teniendo según estudio publicado por Fundación L’Oreal en España en 2014 que tan solo 1 de cada 10 directivos son mujeres y en temas de investigación tecnológica 3 de cada 10, datos que se ven afectados por la falta de mujeres aspirantes a este tipo de cargos en esta industria y paralelamente.</p>
-            <p>Para complementar el análisis presentamos la participación de la mujer en diferentes industrias:</p>
-            <p>52 % Administración y servicios profesionales</p>
-            <p>20 % Software</p>
-            <p>31 % Abogados</p>
-            <p>61 % Contadores y Auditores</p>
-            <p>81 % Jardín de infantes y escuela.</p>
-        </div><!-- container -->
-    </div><!-- historia -->
+        <aside id="concierto" class="padded">
+            <div class="container">
+                <p class="mega-texto">Expoferia de Emprendimiento 2022<br><span class="texto-importante">Red de CETPROS</span>
+                    <br>UGEL 04 - Puente Piedra<br>
+                     <span class="texto-importante">Ventas de </span> productos y <br>prestacion de servicios<br> 25 de Noviembre
+                    Plaza de Armas - Puente Piedra</p>
+            </div><!-- container -->
+        </aside><!-- concierto -->
 
-    <div id="empresa">
-        <div class="container">
-            <div class="row">
-                <div class="col centrar-vertical">
-                    <h2>Nuestra Misión</h2>
-                    <p>Formando Mujeres emprendedoras en tecnologias de información y comunicación, capacitar a las adolescentes y jóvenes mujeres en Programación de páginas web</p>
-                </div>
-                <div class="col">
-                    <img src="images/foto-empresa.jpg" alt="" class="img-fluid">
-                </div>
-            </div><!-- row -->
-        </div><!-- container -->
-    </div><!-- empresa -->
+        <section id="paisajes" class="padded">
+            <div class="container">
 
-    <div id="eventos" class="padded">
-        <div class="container">
-            <h2>Eventos</h2>
-            <div class="row">
-                <div class="col col-50">
-                    <h3>Programación Web para mujeres - CETPROs</h3>
-                    <p>Educa CETPRO realizará un curso de capacitación en programacíon web para mujeres adolescentes y jóvenes de 15 a 19 años de manera presencial, se viene promoviendo en algunos CETPROS de Lima, el curso será implemnetado por convenio entre la UGEL 04, UNICEF y los CETPROS de esta Juridicción. </p>
-                    <p>Se espera capacitar a dicha población en programación web para incentivar y reducir las brechas que hay con respecto a los varones por falta de promoción y conocimiento.</p>
-                </div>
-                <div class="col">
-                    <h3>Expoferia 2022- UGEL 04</h3>
-                    <p>Se desarrolla cada año en el mes de noviembre a nivel de la red CETPROS de la UGEL 04</p>
-                    <p>Con gran entusiasmo y orgullo, los estudiantes, docentes y directivos de los Centros de Educación Técnico Productiva (CETPRO) de la UGEL 04 presentaran al público los trabajos realizados durante el presente año lectivo, como parte de su preparación y aprendizaje académico teórico-práctico, durante la Expo Feria de Emprendimiento.</p>
-                </div>
-                <div class="col">
-                    <h3>Concurso de Diseño Web - Unicef </h3>
-                    <p>Se realizará al finalizar el curso de capacitación de las estudiantes del curso de diseño de paginas web y programación en coordinación con UNICEF El Fondo de las Naciones Unidas para la Infancia</p>
-                    <p>Los ganadores de este concurso se haran acrredores a becas para cursos afines a la carrera de diseño web para su especialización</p>
-                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2>Especialidades</h2>
+                        <div class="botonera">
+                            <div class="circulo" id="boton-retroceder"></div>
+                            <span id="caja-posicion">-1</span>
+                            <div class="circulo" id="boton-avanzar"></div>
+                        </div>
+                    </div>
+                    <figure class="col">
+                        <img src="" class="img-fluid" alt="" id="muestra">
+                        <figcaption>Carreras Técnicas</figcaption>
+                    </figure>
+                </div><!-- row -->
+            </div><!-- container -->
+        </section><!-- paisajes -->
+
+
+        <section id="historia" class="padded">
+            <div class="container">
+                <header>
+                    <h2>Participación de la mujer en la creación y dirección de tecnología</h2>
+                </header>
+                <p>Se estima que en promedio el 47% por la fuerza laboral son mujeres, con ligeras variaciones en diferentes industrias. Sin embargo en cuanto a creación y participación de las mujeres en el desarrollo de tecnología persiste una amplia brecha, teniendo por ejemplo de cada 5 estudiantes de tecnología y ciencias tan solo una es mujer. A la par, si analizamos la mayor parte de ponencias relacionadas a la tecnología cuentan con alto ausentismo de mujeres y prevalesencia de hombres en este tipo de programas.</p>
+                <p>Lo mismo ocurre con cargos de alto nivel relacionados a la tecnología ocupados por mujeres, teniendo según estudio publicado por Fundación L’Oreal en España en 2014 que tan solo 1 de cada 10 directivos son mujeres y en temas de investigación tecnológica 3 de cada 10, datos que se ven afectados por la falta de mujeres aspirantes a este tipo de cargos en esta industria y paralelamente.</p>
+                <p>Para complementar el análisis presentamos la participación de la mujer en diferentes industrias:</p>
+                <p>52 % Administración y servicios profesionales</p>
+                <p>20 % Software</p>
+                <p>31 % Abogados</p>
+                <p>61 % Contadores y Auditores</p>
+                <p>81 % Jardín de infantes y escuela.</p>
+            </div><!-- container -->
+        </section><!-- historia -->
+
+        <section id="empresa">
+            <div class="container">
+                <div class="row">
+                    <article class="col centrar-vertical">
+                        <header>
+                            <h2>Nuestra Misión</h2>
+                        </header>
+                        <p>Formando Mujeres emprendedoras <a href="http://www.minedu.gob.pe/superiortecnologica/" target="_blank"> DINEST</a> 
+                        <p> en tecnologias de información y comunicación, capacitar a las adolescentes y jóvenes mujeres en Programación de páginas web</p>
                 
-            </div>
-        </div><!-- container -->
-    </div><!-- eventos -->
+                    </article>
+                    <figure class="col">
+                        <img src="images/foto-empresa.jpg" alt="" class="img-fluid">
+                    </figure>
+                </div><!-- row -->
+            </div><!-- container -->
+        </section><!-- empresa -->
 
-    <div id="main-footer">
+
+
+        <section id="valores" class="padded">
+            <div class="container">
+                <h2>Valores</h2>
+                <div class="row">
+                    <!-- .col*5>h3{Valor $}+p>lorem16 -->
+                    <article class="col">
+                        <i class="fa-solid fa-cloud"></i>
+                        <h3>Profesionalismo</h3>
+                        <p>Profesionalidad y pluridisciplinariedad del equipo humano</p>
+                    </article>
+                    <article class="col">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <h3>Responsabilidad</h3>
+                        <p>Responsables con el entorno social y cuidadado del medio ambiente</p>
+                    </article>
+                    <article class="col">
+                        <i class="fa-brands fa-android"></i>
+                        <h3>Confianza</h3>
+                        <p>Escuchamos a nuestros estudiantes para ofrecerles las mejores oportunidades y servicios de confianza</p>
+                    </article>
+                    <article class="col">
+                        <i class="fa-solid fa-mask"></i>
+                        <h3>Innovación</h3>
+                        <p>Apostamos por la innovación tecnológica como herramienta de transformación de un sector y de mejora de la sociedad</p>
+                    </article>
+                    <article class="col">
+                        <i class="fa-solid fa-wheat-awn"></i>
+                        <h3>Compromiso</h3>
+                        <p>Comprometidos con la sostenibilidad economica del local y nacional.</p>
+                    </article>
+                </div><!-- row -->
+            </div><!-- container -->
+        </section><!-- valores -->
+
+        <section id="frases" class="padded">
+            <div class="container">
+                <h2>Inicio de Clases</h2>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li id="frase1">Módulo 1:</li>
+                            <li id="frase2">Módulo 2:</li>
+                            <li id="frase3">Módulo 3:</li>
+                            <li id="frase4">Módulo 4:</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <p class="mega-texto" id="frase-dia">Fecha de inicio de los modulos</p>
+                    </div>
+                </div><!-- row -->
+            </div><!-- container -->
+        </section><!-- frases -->
+
+
+        <section id="eventos" class="padded">
+            <div class="container">
+                <h2>Eventos</h2>
+                <div class="row">
+                    <article class="col col-50">
+                        <h3>Programación Web para mujeres - CETPROs</h3>
+                        <p>Educa CETPRO realizará un curso de capacitación en programacíon web para mujeres adolescentes y jóvenes de 15 a 19 años de manera presencial, se viene promoviendo en algunos CETPROS de Lima, el curso será implemnetado por convenio entre la UGEL 04, UNICEF y los CETPROS de esta Juridicción. </p>
+                        <p>Se espera capacitar a dicha población en programación web para incentivar y reducir las brechas que hay con respecto a los varones por falta de promoción y conocimiento.</p>
+                    </article>
+                    <article class="col">
+                        <h3>Expoferia 2022- UGEL 04</h3>
+                        <p>Se desarrolla cada año en el mes de noviembre a nivel de la red CETPROS de la UGEL 04</p>
+                    <p>Con gran entusiasmo y orgullo, los estudiantes, docentes y directivos de los Centros de Educación Técnico Productiva (CETPRO) de la UGEL 04 presentaran al público los trabajos realizados durante el presente año lectivo, como parte de su preparación y aprendizaje académico teórico-práctico, durante la Expo Feria de Emprendimiento. Participan:</p>
+                        <ul>
+                            <li>Comas</li>
+                            <li>Puente Piedra</li>
+                            <li>Carabayllo</li>
+                            <li>Zapallal</li>
+                        </ul>
+                    </article>
+                    <article class="col">
+                        <h3>Concurso de Diseño Web - Unicef</h3>
+                        <p>Se realizará al finalizar el curso de capacitación de las estudiantes del curso de diseño de paginas web y programación en coordinación con UNICEF El Fondo de las Naciones Unidas para la Infancia</p>
+                        <p>Los ganadores de este concurso se haran acrredores a becas para cursos afines a la carrera de diseño web para su especialización, los ganadores se haran acreedores de:</p>
+                        <ol type="I" start="7">
+                            <li>Una tablet</li>
+                            <li>Disco portable</li>
+                            <li>Disco solido</li>
+                            <li>Beca de estudio para CETPRO</li>
+                        </ol>
+                    </article>
+
+                </div>
+            </div><!-- container -->
+        </section><!-- eventos -->
+
+        <section id="colaboradores" class="padded">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>Colaboradores</h2>
+                        <ul id="lista-colaboradores">
+                            <li id="boton-edgar">Edgar Escobar Zurita</li>
+                            <li id="boton-lady">Lady Nieves Collao Chocca</li>
+                            <li id="boton-debora">Debora Cunice Sanchez Ticono</li>
+                            <li id="boton-ivan">David Chura</li>
+                            <li id="boton-juan">Grupo - UNICEF</li>
+                        </ul>
+                    </div>
+                    <figure class="col">
+                        <img src="images/grupo.jpg" class="img-fluid" alt="" id="visor">
+                    </figure>
+                </div>
+            </div><!-- container -->
+        </section><!-- colaboradores -->
+
+        <section id="videos" class="padded">
+            <div class="container">
+                <h2>Videos</h2>
+                <div class="row">
+                    <div class="col">
+                        <!-- <iframe class="video" width="560" height="315" src="https://www.youtube.com/watch?v=ZnV22YEeuRM&t=1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                        <iframe width="790" height="444" src="https://www.youtube.com/embed/ZnV22YEeuRM" title="CETPRO CARABAYLLO 2020 EDICION DE PUBLICIDAD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="col">
+                        <video class="video" autoplay controls>
+                            <source src="videos/unicef.mp4">
+                        </video> 
+                    </div>
+                </div>
+            </div><!-- container -->
+        </section><!-- videos -->
+    </main>
+    <a href="https://forms.gle/ChKgCh9z7k13yq777">INCRIPCIONES AQUI------></a>
+    <footer id="main-footer">
         <div class="container">
             2022 - Todos los derechos reservados
         </div><!-- container -->
-    </div><!-- main-footer -->
+    </footer><!-- main-footer -->
+
+    <script src="js/main.js"></script>
 </body>
 </html>
